@@ -44,6 +44,10 @@ The Go HTTP library enforces HTTP protocol constraints:
 
 **All tests pass**, confirming that Go's HTTP library never sends a body larger than Content-Length indicates, and always returns an empty body for 204 responses.
 
+### Requirements
+
+- Go 1.25 or later
+
 ### Running Tests
 
 ```bash
